@@ -114,7 +114,7 @@
             bindings = <
     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5 &kp N6 &kp N7     &kp N8      &kp N9    &kp N0
     &kp DQT    &hm LSHFT SQT &hm LALT LPAR  &hm LCTRL RPAR &kp GRAVE &kp MINUS &hm RCTRL LBRC &hm LALT RBRC &hm RSHFT EQUAL &trans
-    &kp BLSH      &none      &kp LBKT      &kp RBKT  &none  &kp PLUS    &kp MINUS       &trans     &trans
+    &kp BSLH      &none      &kp LBKT      &kp RBKT  &none  &kp PLUS    &kp MINUS       &trans     &trans
     &trans &trans    &trans                &trans        &kp RET     &trans    &trans
             >;
 
