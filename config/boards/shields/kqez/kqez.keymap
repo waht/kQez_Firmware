@@ -21,14 +21,6 @@
             bindings = <&kp>, <&kp>;
         };
 
-        tdflsh: tap_dance_flsh {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_flsh";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&lt FUN FSLH>, <&kp RSHFT>;
-        };
-
         tdlctrl: tap_dance_lctrl {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_LCTRL";
@@ -104,7 +96,7 @@
     &kp Q      &kp W      &kp E       &kp R       &kp T  &kp Y  &kp U       &kp I       &kp O      &kp P
     &kp A      &hm LSHFT S &hm LALT D &hm LCTRL F &kp G  &kp H  &hm RCTRL J &hm LALT K &hm RSHFT L &hm RGUI SEMI
     &kp Z                 &kp X       &kp C       &kp V  &kp B  &kp N       &kp M       &kp COMMA  &kp DOT
-    &tdlctrl &tdlalt    &lt NUM_SYM SPACE       &kp LGUI      &lt NAV RET   &lt UD RALT  &tdflsh
+    &tdlctrl &tdlalt    &lt NUM_SYM SPACE       &kp LGUI      &lt NAV RET   &lt UD RALT  &lt FUN FSLH
             >;
 
             sensor-bindings = <&inc_dec_kp DEL BSPC>;
