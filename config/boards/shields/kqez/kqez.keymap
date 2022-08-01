@@ -37,7 +37,7 @@
             bindings = <&kp LCTRL>, <&kp LSHFT>;
         };
 
-        tdlalt tap_dance_lalt {
+        tdlalt: tap_dance_lalt {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_LALT";
             #binding-cells = <0>;
